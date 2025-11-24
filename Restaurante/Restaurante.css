@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(255, 255, 68);
+    background-image: url(queso.jpeg);
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+img.logo{
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+img.menu{
+    height: auto;
+    width: 200px;
+}
+
+img.perfil{
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#barralogo{
+    height: 80px;
+    width: 100%;
+    background: rgb(255, 42, 42);
+}
+
+th.reseña{
+    background-color: rgb(255,42,42);
+}
+
+#logo{
+    height: 90%;
+    width: 6%;
+    background: rgb(9, 255, 0);
+    position: relative;
+    top: 5%;
+    left: 3px;
+
+}
+#barra{
+    height: 60%;
+    width: 85%;
+    top: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+}
+#otra{
+    background: black;
+    height: 50%;
+    width: 100px;
+}
+#herramientas{
+    height: 40px;
+    width: 8%;
+    background: rgb(168, 165, 165);
+    position: relative;
+    top: -10px;
+    left: 0px;
+}
+#anuncios{
+    height: 600px;
+    width: 120px;
+    top: 45px;
+    left: 100%;
+    background: rgb(0, 255, 0);
+    position: sticky;
+    z-index: 2;
+}
+#contenidos{
+    height: 100%;
+    width: 70%;
+    left: 30px;
+    background: rgb(255, 180, 41);
+    position: static;
+    text-align: center;
+    z-index: 1;
+}
+#botones{
+    height: 100%;
+    width: 70%;
+    background: rgb(255, 180, 41);
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#reseña{
+    width: 70%;
+    height: 50px;
+    background: rgb(255, 42, 42);
+    top: 45px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.ocultar{
+    height: 30px;
+    width: 40px;
+    background: red;
+    position: relative;
+    left: 65%;
+}
+.ocultar:hover{
+    background-color: blue;
+}
+
+.contain {
+  object-fit: contain;
+}
