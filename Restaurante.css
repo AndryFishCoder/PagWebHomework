@@ -23,7 +23,16 @@ img.perfil{
     margin-left: auto;
     margin-right: auto;
 }
+h1{
+    font-family: 'Brush Script MT', cursive;
+}
+main{
+    font-family: 'Trebuchet MS', sans-serif;
+}
 
+h3{
+    background-color: brown;
+}
 #barralogo{
     height: 80px;
     width: 100%;
@@ -31,7 +40,7 @@ img.perfil{
 }
 
 th.reseña{
-    background-color: rgb(255,42,42);
+    background-color: rgb(255, 255, 255);
 }
 
 #logo{
@@ -67,22 +76,20 @@ th.reseña{
     left: 0px;
 }
 #anuncios{
-    height: 600px;
-    width: 120px;
-    top: 45px;
-    left: 100%;
-    background: rgb(0, 255, 0);
     position: sticky;
-    z-index: 2;
+    margin-left: auto;
+    width: 150px;
+    height: body;
+    background: rgb(0, 255, 0);
 }
 #contenidos{
     height: 100%;
     width: 70%;
-    left: 30px;
     background: rgb(255, 180, 41);
-    position: static;
+    position: relative;
     text-align: center;
-    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
 }
 #botones{
     height: 100%;
