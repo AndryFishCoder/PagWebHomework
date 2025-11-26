@@ -30,6 +30,10 @@ main{
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+h2{
+    background-color: rgb(255, 0, 0);
+}
+
 h3{
     background-color: brown;
 }
